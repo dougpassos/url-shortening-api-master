@@ -1,0 +1,62 @@
+nav {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;  
+  width: auto;
+  height: 2rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: var(--neutral-gray);
+}
+
+nav *{
+  font-weight: bold;
+  color: var(--neutral-grayish-violet);
+}
+
+.menu {  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+nav image {
+  width: 10%;
+  height: 80%;
+}
+
+ul {
+  list-style-type: none; 
+}
+
+ul li{
+  margin-inline: 1rem;  
+}
+
+a {
+  text-decoration: none 
+}
+
+.bt-login button { 
+  margin-inline: .5rem;
+  padding-inline: 1rem;
+  width: 5.5rem;
+  height: 100%;
+  border-radius: .9rem;
+  background: none;
+}
+
+.bt-login button:last-of-type {
+  background-color: var(--primary-cyan);
+  color: azure;
+}
