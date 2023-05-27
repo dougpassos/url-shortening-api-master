@@ -1,12 +1,13 @@
 import './App.css'
+import HeaderApp from './components/HeaderApp'
 
 function App() {
   
 
   return (
     <>
-     <header>Header</header>
-     <div>Area grande - MOre than just short links</div>
+     <HeaderApp></HeaderApp>
+     <div>Area grande - More than just short links</div>
      <div>Encurtador de URL</div>
      <div>Advanced Statistics</div>
      <div>Cards com informações</div>
