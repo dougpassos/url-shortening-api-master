@@ -1,5 +1,5 @@
 import './HeaderApp.css'
-import imgLogo from '../../public/logo.svg'
+import imgLogo from '../assets/logo.svg'
 
 function HeaderApp () {
   return (
