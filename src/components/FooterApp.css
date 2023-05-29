@@ -1,0 +1,16 @@
+footer {  
+  background-color: var(--neutral-Very-dark-violet);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.footer-links a{
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+}
+
+
+
