@@ -1,5 +1,6 @@
 import './App.css'
 import HeaderApp from './components/HeaderApp'
+import FooterApp from './components/FooterApp'
 
 function App() {
   
@@ -11,8 +12,8 @@ function App() {
      <div>Encurtador de URL</div>
      <div>Advanced Statistics</div>
      <div>Cards com informações</div>
-     <div>Faixa com botão Get Started</div>
-     <footer>Footer</footer>
+     <div>Faixa com botão Get Started</div>     
+     <FooterApp></FooterApp>
     </>
   )
 }
