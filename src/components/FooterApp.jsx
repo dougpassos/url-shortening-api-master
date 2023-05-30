@@ -12,16 +12,19 @@ function FooterApp() {
       <footer>
         <img src={imgLogo} alt="logo" />
         <div className='footer-links footer-features'>
+          <a href="#">Features</a>
           <a href="#">Link Shortening</a>
           <a href="#">Branded Links</a>
           <a href="#">Analytics</a>        
         </div>
         <div className='footer-links footer-resources'>
+          <a href="#">Resources</a>
           <a href="#">Blog</a>
           <a href="#">Developers</a>
           <a href="#">Support</a>
         </div>
         <div className='footer-links footer-company'>
+          <a href="#">Company</a>
           <a href="#">About</a>
           <a href="#">Our Team</a>
           <a href="#">Careers</a>
