@@ -1,0 +1,25 @@
+section {
+  background-color: var(--primary-dark-violet);
+  background-image: url('../assets/bg-boost-desktop.svg');
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  color: aliceblue;
+}
+
+p {
+  margin: 2rem 1rem .05rem;
+  font-size: xx-large;
+  font-style: bold;
+}
+
+section button { 
+  margin: 2rem 1rem 3rem;
+  width: 8rem;
+  height: 2.5rem;
+  border-radius: 2rem;
+  background-color: var(--primary-cyan);
+  color: azure;
+}
