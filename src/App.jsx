@@ -1,7 +1,10 @@
 import './App.css'
 import HeaderApp from './components/HeaderApp'
-import FooterApp from './components/FooterApp'
 import AreaGetStarted from './components/AreaGetStarted'
+import AreaMoreThan from './components/AreaMoreThan'
+import FormShortenUrl from './components/FormShortenUrl'
+import AdvStatistics from './components/AdvStatistics'
+import FooterApp from './components/FooterApp'
 
 function App() {
   
@@ -9,10 +12,9 @@ function App() {
   return (
     <>
      <HeaderApp></HeaderApp>
-     <div>Area grande - More than just short links</div>
-     <div>Encurtador de URL</div>
-     <div>Advanced Statistics</div>
-     <div>Cards com informações</div>
+     <AreaMoreThan></AreaMoreThan>
+     <FormShortenUrl></FormShortenUrl>
+     <AdvStatistics></AdvStatistics>     
      <AreaGetStarted></AreaGetStarted>     
      <FooterApp></FooterApp>
     </>

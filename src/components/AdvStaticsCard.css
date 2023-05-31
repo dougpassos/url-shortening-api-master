@@ -1,0 +1,42 @@
+div.adv-card {
+  border: red solid 1px;
+  height: 15rem;
+  width: 18rem;
+  display: flex;
+  align-items: flex-end;
+}
+
+div.adv-card-itens {
+  height:85%;
+  width: 100%;
+  padding: .5rem 1rem;
+  background-color: var(--neutral-gray);
+  display: flex;
+  flex-direction: column;
+  font-size: small;
+
+}
+
+div.adv-card-itens-ico {
+  background-color: var(--primary-dark-violet);
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  margin-top: -2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+div.adv-card-itens img {
+  height: 2rem;
+  width: 2rem;
+ 
+}
+
+div.adv-card-itens span{
+  margin: 1rem 0 1rem;
+  font-size: medium;
+  font-style: bold;
+}

@@ -1,0 +1,9 @@
+section.adv-statistics {
+
+}
+
+div.adv-stat-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

@@ -1,14 +1,15 @@
 import './AreaGetStarted.css'
+import ButtonGetStarted from './ButtonGetStarted'
 
 function AreaGetStarted() {
 
   return (
     <>
-      <section>
+      <section className='get-started'>
         <div>
           <p>Boost your links today</p>
         </div>
-        <button>Get Started</button>
+        <ButtonGetStarted></ButtonGetStarted>        
       </section>
     </>
 

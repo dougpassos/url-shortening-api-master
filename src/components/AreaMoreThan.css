@@ -1,0 +1,22 @@
+section.more-than { 
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;  
+  margin-inline: 5rem;
+}
+
+section.more-than img{
+  margin-right: -7rem;
+  margin-left: 7rem;
+}
+
+section.more-than div {  
+  width: 50%;
+
+}
+
+section.more-than h1 {
+  font-size: 3rem;
+  
+
+}

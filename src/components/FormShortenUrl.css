@@ -1,0 +1,44 @@
+section.shorter { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 80%;  
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url('../assets/bg-shorten-desktop.svg');
+  background-color: var(--primary-dark-violet);
+  border-radius: .5rem;
+}
+
+section.shorter form{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: 1rem;
+  padding: 0;
+}
+
+section.shorter input {
+  height: 2.5rem;
+  margin: 1rem .5rem;
+  border-radius: .5rem;
+}
+
+section.shorter input[type=text] {
+  width: 80%;
+  padding-inline: 1.5rem;
+  margin-left: 2rem;
+}
+
+section.shorter input[type=button] {
+  width: 8rem;
+  margin-right: auto;
+  align-content: end;
+  background-color: var(--primary-cyan);
+  color: azure;
+}
+
+
