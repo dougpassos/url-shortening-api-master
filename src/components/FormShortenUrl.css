@@ -33,7 +33,7 @@ section.shorter input[type=text] {
   margin-left: 2rem;
 }
 
-section.shorter input[type=button] {
+section.shorter input[type=submit] {
   width: 8rem;
   margin-right: auto;
   align-content: end;
