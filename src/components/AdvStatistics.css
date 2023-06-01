@@ -1,9 +1,18 @@
 section.adv-statistics {
+  display: flex;
+  flex-direction: column;
+}
 
+div.adv-stat-title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
 }
 
 div.adv-stat-cards {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-bottom: 2rem;
 }

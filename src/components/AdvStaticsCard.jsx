@@ -1,18 +1,17 @@
+/* eslint-disable react/prop-types */
 import './AdvStaticsCard.css'
 
-function AdvStaticsCard(props) {
-  
-  const dataCard = props.data;
+function AdvStaticsCard(props) { 
   
 
   return (
     <div className="adv-card">
       <div className='adv-card-itens'>
         <div className='adv-card-itens-ico'>
-          <img src={dataCard.imgIcoCard} alt="ico" />
+          <img src={props.data.imgIcoCard} alt="ico" />
         </div>
-        <span>{dataCard.titleCard}</span>
-        <p>{dataCard.textCard}</p>
+        <span>{props.data.titleCard}</span>
+        <p>{props.data.textCard}</p>
       </div>
     </div>
   )
