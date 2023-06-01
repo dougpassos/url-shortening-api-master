@@ -1,0 +1,35 @@
+.list-hist-url {
+  border: red solid 1px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+  width: 80%;  
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: .5rem;
+  padding: 1rem;
+}
+
+.list-hist-url-shorten {
+  padding-inline: 1rem;
+}
+
+.list-hist-url-shorten span{
+  color: var(--primary-cyan);
+  margin-inline: 1rem;
+}
+
+.list-hist-url-shorten button{
+  background-color: var(--primary-cyan);
+  color: aliceblue;
+  height: 2rem;
+  width: 5rem;
+  border-radius: .3rem;
+}
+
+.list-hist-url-shorten button:hover {
+  opacity : 0.5; 
+}
