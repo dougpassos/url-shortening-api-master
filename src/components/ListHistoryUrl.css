@@ -1,5 +1,5 @@
 .list-hist-url {
-  border: red solid 1px;
+  border: var(--primary-dark-violet) solid 1.5px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -11,6 +11,14 @@
   margin-right: auto;
   border-radius: .5rem;
   padding: 1rem;
+}
+
+.list-hist-url-none {
+  display: none;
+}
+
+.list-hist-url-orig {
+  color: var(--neutral-grayish-violet);
 }
 
 .list-hist-url-shorten {

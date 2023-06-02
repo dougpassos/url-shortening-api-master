@@ -2,10 +2,10 @@ import './ListHistoryUrl.css'
 
 function ListHistoryUrl(props) {
 
-  const lista = props.lista; 
+  const lista = props.lista;   
 
   return (
-    <section className='list-hist-url'>
+    <section className={lista.length!==0 ?'list-hist-url': 'list-hist-url-none list-hist-url'}>
       <div className='list-hist-url-orig'>
         {lista.original_link}
       </div>
